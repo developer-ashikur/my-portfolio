@@ -1,0 +1,21 @@
+.service-item{
+    border: 2px solid #85868c;
+    border-radius: 10px;
+    transition: .4s;
+}
+.service-icon{
+    color: #ff3685;
+    border: 2px solid #ff3685;
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+    border-radius: 50%;
+    font-size: 30px;
+    transition: .4s;
+}
+.service-item:hover{
+    transform: translateY(-10px);
+}
+.service-item:hover .service-icon{
+    transform: rotate(360deg);
+}
