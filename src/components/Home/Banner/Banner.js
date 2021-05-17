@@ -21,8 +21,8 @@ const Banner = () => {
                     />
                     </h4>
                     <p>I am a self-motivated programmer. I count myself as a hardworking person and I am always ready to learn any technology. My core skill is based on JavaScript and I love to develop interactive front-end web applications using React.js. As a programmer, I love to take on challenges and always focus on learning new technology.</p>
-                    <a className='default-btn me-4' target='_blank' href="https://drive.google.com/file/d/1EGSqc98Ss9Jktzu1D3EUle7TQ8OGyMVU/view?usp=sharing">Resume</a>
-                    <a className='default-btn' target='_blank' href="https://www.linkedin.com/in/developerashikur01/">Hire Me</a>
+                    <a className='default-btn me-4' target='_blank' rel="noreferrer" href="https://drive.google.com/file/d/1EGSqc98Ss9Jktzu1D3EUle7TQ8OGyMVU/view?usp=sharing">Resume</a>
+                    <a className='default-btn' target='_blank' rel="noreferrer" href="https://www.linkedin.com/in/developerashikur01/">Hire Me</a>
                 </div>
             </div>
             <div className="col-md-6">

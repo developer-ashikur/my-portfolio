@@ -37,12 +37,12 @@ const ProjectDetails = ({ project }) => {
                             }
                         </ol>
                     </p>
-                    <h5 className="card-subtitle py-2">Technology</h5>
+                    <h5 className="card-subtitle py-2">Technology Used</h5>
                     {
                         technologyUsed.map(technology => <button className='btn btn-secondary m-2 mb-3'>{technology.name}</button>)
                     } <br />
-                    <a href={websiteLink} className="default-btn me-3 ms-2">Website Link</a>
-                    <a href={gitHubLink} className="default-btn">GitHub Link</a>
+                    <a href={websiteLink} target='_blank' rel="noreferrer" className="default-btn me-3 ms-2">Website Link</a>
+                    <a href={gitHubLink} target='_blank' rel="noreferrer" className="default-btn ms-2 mt-2">GitHub Link</a>
                 </div>
             </div>
         </div>
