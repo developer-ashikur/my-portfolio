@@ -13,7 +13,7 @@ const Contact = () => {
                                 <li className='mb-3'>
                                     <div className='row'>
                                         <div className="service-icon text-center col-lg-2 mx-auto">
-                                            <i class="fas fa-envelope-open-text"></i>
+                                            <i className="fas fa-envelope-open-text"></i>
                                         </div>
                                         <div className="contact-item col-lg-10">
                                             <h5>Email</h5>
@@ -24,7 +24,7 @@ const Contact = () => {
                                 <li className='mb-3'>
                                     <div className='row'>
                                         <div className="service-icon text-center col-lg-2 mx-auto">
-                                        <i class="fas fa-phone-volume"></i>
+                                        <i className="fas fa-phone-volume"></i>
                                         </div>
                                         <div className="contact-item col-lg-10">
                                             <h5>Call Me</h5>
@@ -35,7 +35,7 @@ const Contact = () => {
                                 <li className='mb-3'>
                                     <div className='row'>
                                         <div className="service-icon text-center col-lg-2 mx-auto">
-                                        <i class="fas fa-map-marked-alt"></i>
+                                        <i className="fas fa-map-marked-alt"></i>
                                         </div>
                                         <div className="contact-item col-lg-10">
                                             <h5>My Location</h5>
@@ -46,7 +46,7 @@ const Contact = () => {
                                 <li className='mb-3'>
                                     <div className='row'>
                                         <div className="service-icon text-center col-lg-2 mx-auto">
-                                        <i class="fas fa-clock"></i>
+                                        <i className="fas fa-clock"></i>
                                         </div>
                                         <div className="contact-item col-lg-10">
                                             <h5>Time Zone</h5>

@@ -35,7 +35,7 @@ const WorkingProcess = () => {
         }
     ]
     return (
-        <div className='py-5 text-center'>
+        <div className='py-5 text-center bg-brand'>
             <div className="container">
             <h2 className='pt-4'>How Do I Work?</h2>
             <div className="underline mb-5"></div>
