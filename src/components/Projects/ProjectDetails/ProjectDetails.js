@@ -1,12 +1,17 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const ProjectDetails = ({ project }) => {
+    useEffect(() => {
+        AOS.init({duration: 2000})
+      }, [] );
     const { title, features, images, websiteLink, gitHubLink, technologyUsed, id } = project;
     const {image1, image2, image3} = images;
     return (
-        <div className='col-lg-6 my-3'>
+        <div className='col-lg-6 my-3' data-aos="fade-up">
             <div className="card shadow rounded service-item" >
-                <div id='carouselExampleControls' className="carousel slide" data-bs-ride="carousel">
+                <div id='carouselExampleControls' className="carousel slide m-4 border-5" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <img src={image1} className="d-block w-100 card-img-top" style={{ height: '20rem' }} alt="..." />

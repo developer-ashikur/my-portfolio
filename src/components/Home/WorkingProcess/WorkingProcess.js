@@ -33,7 +33,7 @@ const WorkingProcess = () => {
             title: '6. Website Is Ready!',
             description: 'After reviewing everything, we are going to the final step, if everything has done, then I can publish it for everyone. In every project, i make sure to give full support to the clients.'
         }
-    ]
+    ];
     return (
         <div className='py-5 text-center bg-brand'>
             <div className="container">

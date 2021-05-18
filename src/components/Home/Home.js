@@ -1,4 +1,5 @@
 import React from 'react';
+import Blog from '../Blogs/Blog/Blog';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import Header from './Header/Header';
@@ -13,6 +14,7 @@ const Home = () => {
             <Services />
             <HomeProjects />
             <WorkingProcess />
+            <Blog />
             <Contact />
             <Footer />
         </>

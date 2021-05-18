@@ -1,13 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Contact = () => {
+    useEffect(() => {
+        AOS.init({duration: 2000})
+      }, [] )
     return (
         <div className='py-5'>
             <div className="container">
             <h2 className='pt-4 text-center'>Contact Me</h2>
             <div className="underline mb-5"></div>
                 <div className="row">
-                    <div className="col-lg-5">
+                    <div className="col-lg-5" data-aos="fade-right">
                         <div className="contact-details">
                             <ul>
                                 <li className='mb-3'>
@@ -57,7 +62,7 @@ const Contact = () => {
                             </ul>
                         </div>
                     </div>
-                    <div className="col-lg-7">
+                    <div className="col-lg-7" data-aos="fade-left">
                         <form action="">
                             <input className='form-control mb-2' type="text" name="" placeholder='Name' id=""/>
                             <input className='form-control mb-2' type="text" name="" placeholder='Subject' id=""/>
