@@ -155,7 +155,7 @@ const Projects = () => {
             <div className="container py-5">
                 <h2 className='pt-4 text-center'>My Projects</h2>
                 <div className="underline mb-5"></div>
-                <div className="row d-flex justify-content-center">
+                <div className="row">
                     {
                         projectsData.map(project => <ProjectDetails key={project.id} project={project}></ProjectDetails>)
                     }
